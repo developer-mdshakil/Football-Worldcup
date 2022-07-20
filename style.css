@@ -346,6 +346,9 @@ footer{
     .hero-content p {
         font-size: 0.875rem;
     }
+    .hero-button {
+        padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+    }
     .hero-images {
         width: 100%;
         display: flex;
