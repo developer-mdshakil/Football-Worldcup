@@ -370,7 +370,7 @@ footer{
     }
     .gellarys, .blogs{
         grid-template-columns: repeat(1,1fr);
-        padding: 1.25rem;
+        padding: 0 1.25rem 0 1.25rem;
     }
     .blog-items{
         width: 100%;
