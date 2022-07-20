@@ -424,7 +424,7 @@ footer{
     }
     .hero-images img {
         width: 100%;
-        top: 4.4rem;
+        top: 5.9rem;
     }
     .gellary-fixedArea {
         background-color: inherit;
@@ -454,7 +454,7 @@ footer{
         margin: 0 3.125rem 0 3.125rem;
     }
     .gellary-widget, .blog-items {
-        width: 22.313rem;
+        width: 100%;
     }
     #last-gellary{
         display: none;
