@@ -18,7 +18,13 @@ body{
     height: auto;
     margin: auto;
 }
+section{
+    padding: 4rem 0;
+}
 /************ header-area stylesheet started *************/
+header{
+    margin-bottom: 2.375rem;
+}
 .hero-area{
     width: 100%;
     height: auto;
@@ -86,6 +92,116 @@ body{
 	position: relative;
 	top: 3.7rem;
 }
+/************* gellary-section ***********/
+.gellary{
+    display: flex;
+}
+.gellary-fixedArea {
+	width: 19.5rem;
+	height: 19.5rem;
+	background-color: #161616;
+	color: #fff;
+	text-align: center;
+	padding: 1.875rem;
+	border-radius: 0.625rem;
+	margin-right: 1.5rem;
+}
+.gellary-fixedArea ul{
+    list-style: none;
+}
+.gellary-fixedArea ul li a{
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    padding: 1.063rem 2.438rem 1.063rem 2.438rem;
+    background-color: #fff;
+    color: #161616;
+    border-radius: 0.625rem;
+    margin-bottom: 1.875rem;
+    transition: .5s ease-in-out;
+}
+.blog{
+    background-color: blue !important;
+    color: #fff !important;
+}
+.gellary-fixedArea ul li a:hover{
+    background-color: blue;
+    color: #fff;
+}
+/* gellarys */
+.gellarys{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+.gellary-widget{
+    width: 19.5rem;
+    height: auto;
+    border: 1px solid #E8E8E8;
+    border-radius: 0.625rem;
+}
+.gellary-thumbnail img{
+    width: 100%;
+    border-radius: 0.625rem 0.625rem 0 0;
+}
+.gellary-details{
+    padding: 1.25rem;
+}
+.gellary-details button{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #161616;
+    margin-bottom: 1.25rem;
+    border: 0.063rem solid #161616;
+    padding: 0.25rem 1rem;
+    border-radius: 0.313rem;
+    cursor: pointer;
+    background-color: inherit;
+    outline: none;
+}
+.gellary-details h3{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #161616;
+    margin-bottom: 1.25rem;
+}
+.gellary-info {
+	display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #161616B2;
+}
+.duration-time{
+    margin-right: 1.875rem;
+}
+.duration-time span{
+    display: inline-block;
+    margin-right: 0.625rem;
+}
+.comment span{
+    display: inline-block;
+    margin-right: 0.625rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -98,7 +214,7 @@ body{
     .container {
         width: 100%;
     }
-    .hero-area {
+    .hero-area, .gellary{
         flex-direction: column;
     }
     .hero-content {
@@ -122,5 +238,25 @@ body{
         width: 100%;
         height: auto;
         position: inherit;
+    }
+    .gellary-fixedArea {
+        background-color: inherit;
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+    .gellary-fixedArea ul li a{
+        border: 0.063rem solid #E8E8E8;
+    }
+    .gellarys {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .gellary-widget {
+        width: 100%;
+    }
+    .gellary-details button {
+        font-size: 1.063rem;
+    }
+    .gellary-info {
+        font-size: 1.063rem;
     }
 }
