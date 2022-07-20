@@ -461,10 +461,11 @@ footer{
     .gellary-details h3 {
         font-size: 1.25rem;
     }
-    .loading-but{
+    .loading-but {
         display: block;
         text-align: center;
         margin-top: 3.125rem;
+        padding: 0 3.125rem 0 3.125rem;
     }
     .gellary-button {
         display: inline-block;
