@@ -371,7 +371,7 @@ footer{
     .gellarys, .blogs{
         grid-template-columns: repeat(1,1fr);
         justify-content: center;
-        padding: 0 1.25rem 0 1.25rem;
+        margin: 0 1.25rem 0 1.25rem;
     }
     .blog-items{
         width: 100%;
@@ -427,9 +427,8 @@ footer{
     }
     .gellary-fixedArea {
         background-color: inherit;
-        width: 92%;
+        width: 100%;
         height: auto;
-        margin: auto;
     }
     .gellary-fixedArea ul {
         display: flex;
@@ -461,11 +460,10 @@ footer{
     .gellary-details h3 {
         font-size: 1.25rem;
     }
-    .loading-but {
+    .loading-but{
         display: block;
         text-align: center;
-        margin-top: 3.125rem;
-        padding: 0 3.125rem 0 3.125rem;
+        margin: 3.125rem 1.25rem 0 1.25rem;
     }
     .gellary-button {
         display: inline-block;
