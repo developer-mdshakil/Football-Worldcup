@@ -35,7 +35,7 @@ header{
 }
 .hero-content {
 	width: 50%;
-	padding: 5.938rem 1.5rem 5.938rem 6.625rem;
+	padding: 4rem;
 }
 .hero-title{
     font-size: 4.063rem;
@@ -83,14 +83,15 @@ header{
     font-size: 1.2rem;
     margin-left: 0.625rem;
 }
-.hero-images{
-    width: 50%;
+.hero-images {
+	width: 50%;
+	padding-right: 4rem;
 }
 .hero-images img {
-	width: 36.313rem;
+	width: 32rem;
 	height: auto;
 	position: relative;
-	top: 3.7rem;
+	top: 4.4rem;
 }
 /************* gellary-section ***********/
 .gellary{
@@ -184,9 +185,58 @@ header{
     display: inline-block;
     margin-right: 0.625rem;
 }
-
-
-
+/**************** footer-area ****************/
+footer{
+    background-color: #161616;
+    text-align: center;
+    padding: 8.125rem 0;
+    color: #fff;
+}
+.footer-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 6.25rem;
+}
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+.footer-menu li a{
+    display: inline-block;
+    font-size: 1rem;
+    color: #B9B9B9;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 1.5rem;
+}
+.footer-social{
+    text-align: center;
+}
+.footer-social ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.footer-social ul li{
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    background-color: #22213C;
+    border-radius: 50%;
+    margin: 0 2rem;
+    transition: .5s ease-in-out;
+}
+.footer-social ul li a {
+	font-size: 1.3rem;
+	font-weight: 500;
+	color: #fff;
+	text-decoration: none;
+}
+.footer-social ul li:hover{
+    background-color: blue;
+}
 
 
 
@@ -255,8 +305,88 @@ header{
     }
     .gellary-details button {
         font-size: 1.063rem;
+
     }
     .gellary-info {
         font-size: 1.063rem;
+    }
+    .footer-menu {
+        flex-direction: column;
+    }
+    .footer-menu li a {
+        margin: 1rem 0;
+        font-size: 0.875rem;
+    }
+    .footer-social ul li {
+        margin: 0 0.5rem;
+        width: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+    }
+    .footer-social ul li a {
+        font-size: 0.875rem;
+    }
+}
+/******** tablate version responsive **************/
+@media only screen and (max-width: 688px) and (min-width: 992px){
+    .container{
+        width: 100%;
+    }
+    .hero-content {
+        width: 50%;
+        padding: 3.938rem 1.5rem 3.938rem 3.625rem;
+    }
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    .hero-content p {
+        font-size: 0.875rem;
+        margin-bottom: 1.25rem;
+    }
+    .hero-images {
+        width: 50%;
+    }
+    .hero-images img {
+        width: 27.299rem;
+        top: 4.4rem;
+        padding-right: 2rem;
+    }
+    .gellary-fixedArea {
+        background-color: inherit;
+        width: 100%;
+        height: auto;
+        padding: inherit;
+    }
+    .gellary-fixedArea ul {
+        display: flex;
+    }
+    .gellary-fixedArea ul li {
+        width: 33%;
+        margin-right: 1.375rem;
+    }
+    .gellary-fixedArea ul li:last-child{
+        margin-right: inherit;
+    }
+    .gellary-fixedArea ul li a {
+        border: 0.063rem solid #E8E8E8;
+        padding: 1.5rem 1rem 1.5rem 1rem;
+    }
+    .gellary {
+        flex-direction: column;
+    }
+    .gellarys {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .gellary-widget {
+        width: 100%;
+    }
+    .gellary-widget:last-child {
+        display: none;
+    }
+    .gellary-details h3 {
+        font-size: 1.25rem;
+    }
+    .footer-menu {
+        flex-wrap: wrap;
     }
 }
