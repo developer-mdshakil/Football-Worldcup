@@ -427,8 +427,9 @@ footer{
     }
     .gellary-fixedArea {
         background-color: inherit;
-        width: 100%;
+        width: 92%;
         height: auto;
+        margin: auto;
     }
     .gellary-fixedArea ul {
         display: flex;
