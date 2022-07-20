@@ -370,9 +370,13 @@ footer{
     }
     .gellarys, .blogs{
         grid-template-columns: repeat(1,1fr);
+        padding: 1.25rem;
     }
-    .gellary-widget, .blog-items{
+    .blog-items{
         width: 100%;
+    }
+    .gellary-widget {
+        width: 20.938rem;
     }
     .gellary-details button {
         font-size: 1.063rem;
