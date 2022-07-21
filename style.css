@@ -84,7 +84,6 @@ header{
 }
 .hero-images {
 	width: 50%;
-	padding-right: 4rem;
 }
 .hero-images img {
     width: 100%;
@@ -368,9 +367,10 @@ footer{
     .gellary-fixedArea ul li a{
         border: 0.063rem solid #E8E8E8;
     }
-    .gellarys, .blogs{
+    .gellarys, .blogs {
         grid-template-columns: repeat(1,1fr);
         justify-content: center;
+        margin: 0 1.25rem 0 1.25rem;
     }
     .blog-items{
         width: 100%;
@@ -422,7 +422,7 @@ footer{
     }
     .hero-images img {
         width: 100%;
-        top: 5.9rem;
+        top: 4.4rem;
     }
     .gellary-fixedArea {
         background-color: inherit;
@@ -449,6 +449,7 @@ footer{
     }
     .gellarys, .blogs {
         grid-template-columns: repeat(2,1fr);
+        margin: 0 3.125rem 0 3.125rem;
     }
     .gellary-widget, .blog-items {
         width: 100%;
@@ -459,9 +460,10 @@ footer{
     .gellary-details h3 {
         font-size: 1.25rem;
     }
-    .loading-but{
+    .loading-but {
         display: block;
         text-align: center;
+        margin-top: 3.125rem;
     }
     .gellary-button {
         display: inline-block;
