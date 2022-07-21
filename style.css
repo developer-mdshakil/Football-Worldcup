@@ -460,6 +460,7 @@ footer{
     .gellary-details h3 {
         font-size: 1.25rem;
     }
+    /***** tablate device for upcoming watch *************/
     .loading-but {
         display: block;
         text-align: center;
@@ -474,6 +475,7 @@ footer{
         color: #fff;
         font-weight: 500;
     }
+    /**************** .loading-but end **************/
     .footer-menu {
         flex-wrap: wrap;
     }
